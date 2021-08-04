@@ -1,0 +1,45 @@
+
+    
+        '''
+    <!DOCTYPE html>
+        <html>
+            <head>
+
+                <title>OpenMike Page/title>
+                <meta charset ="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-sca;e=1.0">
+            
+            </head>
+            <body bgcolor="F0F8FF">
+                <br><br>
+                <h1 align = "center"> MIKE  Portal</h1>
+                <h2 align="center">(MIKE ID: )</h2><br><br><br>
+            
+            <from METHOD="POST" ACTION="http//loaclhost:800/mavenproject1/login"Name="login">
+                <table width="400" border="3" align="center" cellpadding="20" cellspacing="1" >
+                    <caption><h2>Sign In Page</h2></caption>
+                    <tr>
+                        <th scope="row">MIKE ID</th>
+                        <td><input name="MKID" type="text" id="MKID" tabindex="0" placeholder="###########"
+        		
+                    </tr>
+        	    <tr>
+        		<th scope="row">Password</th>
+        		 <td><input name="MKID" type="text" id="MKID" tabindex="0"placeholder="&#9679;&#9679;&#9679;"
+        	    </tr>
+        	</table><br><br>
+        	
+        	<table  width="400" border="3" align="center" cellpadding="20" cellspacing="1" >
+        		<tr align="center">
+        			<td><input type="submit" name="login" value="SignIn"></td>
+        
+        			<td><input type="reset" name="reset" value="Reset"></td>
+        		</tr>
+        		
+        	</table>
+        		</from>
+        
+            </body>
+        </html>
+        '''
+
